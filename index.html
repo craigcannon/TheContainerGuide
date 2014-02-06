@@ -48,16 +48,11 @@
 
     #mc_embed_signup{ 
       clear:left;
+      width: 300px;
     }
 
     .btn {
       margin-top: 10px;
-    }
-
-    [class*="span"].centered {
-      margin-left: auto;
-      margin-right: auto;
-      float: none;
     }
 
     @media (max-width: 990px) { 
@@ -75,6 +70,10 @@
         height: auto;
         margin-top: -190px;
         margin-bottom: -60px;
+      }
+
+      #mc_embed_signup{ 
+        width: 200px;
       }
     }
 
@@ -97,8 +96,8 @@
           <div class="col-md-3">&nbsp;</div>
         </div>
         <div class="row">
-          <div class="col-md-3">&nbsp;</div>
-          <div class="col-md-6 centered">
+          <center>
+          <div class="col-md-12">
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup">
@@ -110,8 +109,8 @@
               </form>
             </div>
             <!--End mc_embed_signup-->
+          </center>
           </div>
-          <div class="col-md-3">&nbsp;</div>
         </div>
       </div>
     </div><!-- /.container -->
